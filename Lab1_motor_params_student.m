@@ -15,13 +15,14 @@ motor_J = 0.001;
 motor_B = 0.0001;
 
 % Extract collected data
-main = SineWave_1HZ_Run1.mat;
 %Time = SineWave_Run_1.Time;
 %Velo = SineWave_Run_1.Data;
 
-Input = data{1}.Values.Data;
-Time = data{1}.Values.Time;
-Velo = double(data{2}.Values.Data);
+Input_DATA = load("C:\Users\Akkarasaknarong\Documents\GitHub\LAB_Control_Data\Data_for_Estimation\SineWave_1HZ_Run1.mat") ;
+
+Input = Input_DATA.SineWave_1HZ_Run1_1_2_26.data{1}.Values.Data;
+Time = Input_DATA.SineWave_1HZ_Run1_1_2_26.data{1}.Values.Time;
+Velo = Input_DATA.SineWave_1HZ_Run1_1_2_26.double(data{2}.Values.Data);
 
 % Plot 
 figure(Name='Motor velocity response')
