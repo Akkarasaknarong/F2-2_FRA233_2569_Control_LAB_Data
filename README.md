@@ -3,7 +3,7 @@ https://docs.google.com/spreadsheets/d/1YnXmOzDQ9pM9H3S1C0mhhm8Pv3uXedruE-_VNLvl
 
 # Work Process
 ### MatLab
-- set fix-step size -> 0.00001
+- set fix-step size -> 0.0002
 ### Sinwave
 - Run 5 sec
 - Difference "Frequency"
