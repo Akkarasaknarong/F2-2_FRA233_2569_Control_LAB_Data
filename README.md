@@ -8,9 +8,11 @@ https://docs.google.com/spreadsheets/d/1YnXmOzDQ9pM9H3S1C0mhhm8Pv3uXedruE-_VNLvl
 - Run 5 sec
 - Difference "Frequency"
 ### Step
-- Run 1 sec
-- Step time 0.5
+- Run 20 sec
+- Step time 10
 - Difference "Final Value"
-    - 50% PWM
+    - 20% PWM
+    - 40% PWM
+    - 60% PWM
     - 80% PWM
     - 100% PWM
