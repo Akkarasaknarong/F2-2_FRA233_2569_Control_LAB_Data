@@ -36,3 +36,17 @@ https://docs.google.com/spreadsheets/d/1YnXmOzDQ9pM9H3S1C0mhhm8Pv3uXedruE-_VNLvl
         - 15% * max_PWM
         - 20% * max_PWM
         - 25% * max_PWM
+
+### Stair
+- Run : 25 sec
+- Block Name : Stair Generator (Because have more type)
+- Block Parameter :
+    - Time : [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]
+    - Amplitude : [0 0.1 0 0.2 0 0.3 0 0.4 0 0.5 0 0.6 0 0.7 0 0.8 0 0.9 0 1]
+
+### Chirp
+- Run : 30 sec
+- Block Parameter :
+    - Intitial frequency : 0 Hz
+    - Target Time : 25 sec
+    - Frequency at target time : 2 Hz
