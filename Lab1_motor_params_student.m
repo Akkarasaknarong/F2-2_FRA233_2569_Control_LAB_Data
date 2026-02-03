@@ -27,6 +27,6 @@ Time = squeeze(data{1}.Values.Time);
 Velo = squeeze(double(data{1}.Values.Data));
 
 % Plot 
-figure(Name='Motor velocity response')
-plot(Time,Velo,Time,Input)
+% figure(Name='Motor velocity response')
+% plot(Time,Velo,Time,Input)
 

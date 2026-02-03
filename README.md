@@ -28,14 +28,14 @@ https://docs.google.com/spreadsheets/d/1YnXmOzDQ9pM9H3S1C0mhhm8Pv3uXedruE-_VNLvl
         - 100% * max_PWM
 ### Ramp
 - Run : 20 sec
-- Block Parameter
-    - Start Time : 2 Sec
+- Block Parameter  
     - Slope
         - 5% * max_PWM
         - 10% * max_PWM
         - 15% * max_PWM
         - 20% * max_PWM
         - 25% * max_PWM
+    - Start Time : 2 Sec
 
 ### Stair
 - Run : 25 sec
