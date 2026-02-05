@@ -17,7 +17,7 @@ motor_L = 0.04016;
 motor_Eff = 0.5;
 motor_Ke = 0.05;
 motor_J = 0.001;
-motor_B = 0.0001;
+motor_B = 0.00011;
 
 % Extract collected data
 Input = squeeze(double(data{2}.Values.Data));
