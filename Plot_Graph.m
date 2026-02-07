@@ -1,10 +1,10 @@
 clear; clc; close all;
 
-folderPath = 'C:\Users\Akkarasaknarong\Documents\GitHub\LAB_Control_Data\Data_Difference_PWM_frequency\Sine';
+folderPath = 'C:\Users\Akkarasaknarong\Documents\GitHub\LAB_Control_Data\Data_Difference_PWM_frequency\Chirp';
 
-files = {'P3_Sine_200Hz_rec3.mat', ...
-         'P3_Sine_2000Hz_rec3.mat', ...
-         'P3_Sine_20000Hz_rec3.mat'};
+files = {'P3_Chirp_200Hz_rec3.mat', ...
+         'P3_Chirp_2000Hz_rec3.mat', ...
+         'P3_Chirp_20000Hz_rec3.mat'};
 lineColors = {'r', 'g', 'b'};
 legendNames = {'200 Hz', '2000 Hz', '20000 Hz'};
 figure('Name', 'Comparison of 3 Records', 'Color', 'w');
