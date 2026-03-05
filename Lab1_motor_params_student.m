@@ -15,13 +15,20 @@ This script for prepare data and parameters for parameter estimator.
 %data_2 = load('Stair_0.25Hz_Rec2.mat');
 %data_3 = load('Stair_0.25Hz_Rec3.mat');
 
+% motor_R = 3.57;
+% motor_L = 0.003320925926;
+% % Optimization's parameters
+% motor_Eff = 0.99444;
+% motor_Ke = 2.98E-02;
+% motor_J = 6.69E-06;
+% motor_B = 1.80E-04;
+
 motor_R = 3.57;
-motor_L = 0.003320925926;
-% Optimization's parameters
-motor_Eff = 0.99444;
-motor_Ke = 2.98E-02;
-motor_J = 6.69E-06;
-motor_B = 1.80E-04;
+motor_L = 0.003313;
+motor_B = 0.00000214;
+motor_J = 0.000011739;
+motor_Eff = 0.9784300;
+motor_Ke = 0.050668;
 
 % Extract collected data
 %Input_1 = squeeze(double(data_1.data{2}.Values.Data));
